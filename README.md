@@ -121,7 +121,7 @@ Vá até a página do repositório no GitHub e clique em "New Pull Request".
 Descreva suas alterações e envie o PR para revisão.
 
 ## Licença
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE]([./LICENSE](https://github.com/Dericofredy/CHAMADA/blob/main/License.md)) para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](https://github.com/Dericofredy/CHAMADA/blob/main/License.md) para mais detalhes.
 
 Agradecimentos
 Agradeço a todos que contribuíram para este projeto.
