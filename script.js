@@ -50,7 +50,7 @@ function criarSecoes() {
                 <select class="status">
                     <option value="presente">Presente</option>
                     <option value="ausente">Ausente</option>
-                    <option value="ausente">Demitido</option>
+                    <option value="Demitido">Demitido</option>
                 </select>
                 <select class="motivo" style="display: none;">
                     <option value="">Selecione o motivo</option>
@@ -101,9 +101,9 @@ function gerarRelatorio() {
             relatorioHTML += '<div class="funcionario">';
             relatorioHTML += '<strong>' + funcionario.nome + ' (' + funcionario.posto + ' - ' + funcionario.graduacao + '):</strong> ';
             relatorioHTML += status;
-            if (status === "ausente") {
+            if (status === "ausente" && motivo) {
                 relatorioHTML += ' (Motivo: ' + motivo + ')';
-            }
+            }           
             relatorioHTML += '</div>';
         }
 
